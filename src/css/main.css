@@ -21,11 +21,10 @@ img {
 }
 
 .search-form {
-  padding-top: 25px;
+  padding-top: 45px;
   padding-bottom: 25px;
   display: flex;
   justify-content: center;
-  background-color: rgb(45, 95, 136);
   background: linear-gradient(45deg, #4f77ac, #c5dde8);
   position: fixed;
   width: 100%;
@@ -33,6 +32,7 @@ img {
 
 input {
   border-radius: 5px;
+  border: transparent;
   margin-right: 10px;
   height: 30px;
   text-align: center;
@@ -40,6 +40,7 @@ input {
 
 .search-btn {
   border-radius: 5px;
+  border: transparent;
   background-color: #fff;
   cursor: pointer;
 }
@@ -49,12 +50,13 @@ input {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
-  background-color: rgb(86, 134, 165);
+  background-color: #6681a5;
   border-radius: 4px;
-  color: rgb(12, 13, 14);
+  border:transparent;
+  color: #ffffff;
   padding: 8px 15px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .load-more.is-hidden {
